@@ -1,0 +1,36 @@
+
+                    Actividad (Integradora adaptada al mundo real): 
+Cliente:   Empresa de MANOFACTURA (ejemplo)
+Problematica a Solucionar: Necesita un software donde introduzca cuatrimestralmente la 
+                           facturacion mensual (el total de cada mes) y pueda calcular automaticamente
+                           El total facturado (la suma de todos los meses)
+                           La menor facturacion de los 4 meses
+                           La mayor facturacion de los 4 meses
+Plazo maximo para Presentar al cliente la solucion del Software: Fecha de Entrega: 5/7
+
+-------------------------------------------------------------------------------------------------------
+Presiciones Tecnicas:
+Lenguaje de Programacion. Python 3
+estructura formada con:
+           ● Funciones
+           ● Listas
+           ● Condicionales
+           ● Bucles de Repetición
+-------------------------------------------------------------------------------------------------------
+
+                             Consigna ISPC:
+                 Actividad Integradora Programación Inicial
+Codificar en Python un programa que contenga las siguientes condiciones:
+● El usuario debe ingresar 5 números enteros, los cuales serán almacenados en una
+lista.
+● Función Suma: recibe como parámetro la lista y devuelve la suma total de todos
+sus elementos.
+● Función Promedio: recibe como parámetro la lista y devuelve el promedio de sus
+elementos.
+● Función Máximo: recibe como parámetro la lista y devuelve el valor máximo de
+todos los elementos que contiene.
+● Función Mínimo: recibe como parámetro la lista y devuelve el valor mínimo de
+todos los elementos que contiene.
+
+
+
