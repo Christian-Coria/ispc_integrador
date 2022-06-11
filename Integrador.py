@@ -1,12 +1,12 @@
 
 
 #imprimimos un titulo, Lo centramos he imprimimos un espacio antes de la primer opcion
-print("Software de Calculo CUATRIMESTRAL".center(60,"-"))
+print("Software de Calculo de Facturacion en 5 Meses".center(60,"-"))
 print("")
 
-#creamos la Clase CalculoCuatrimestral y la inicializamos con el contructor y 
+#creamos la Clase Calculo y la inicializamos con el contructor y 
 # (el Atributo Instancia Privado) de Lista 
-class CalculoCuatrimestral:
+class Facturando5Meses:
     def __init__(self,lista):
         self._lista = lista     #
     #encapsulamos el atributo de instancia
@@ -43,8 +43,8 @@ try:
     #creamos una lista vacia
     lista = []
     #iniciamos un ciclo while, con la funcion len condicionamos el ciclo q que se rompa (en false)
-    # cuando la longitud de la lista llegue a 4 ingresos
-    while len(lista) <= 3:
+    # cuando la longitud de la lista llegue a 5 ingresos
+    while len(lista) <= 4:
         #pedimos al usuario el ingreso de los datos correspondientes
         valor = int(input("INGRESE el TOTAL de VENTAS de CADA MES, Redondeando a Numeros Enteros: "))
         
@@ -60,7 +60,7 @@ except Exception as e:
 # caso contrario  
 else:
     #creamos un objeto 
-    calculo1 = CalculoCuatrimestral(lista)
+    calculo1 = Facturando5Meses(lista)
     #inicializamos el menu
     print("MENU DE OPCIONES".center(50,"*"))
     print("""
