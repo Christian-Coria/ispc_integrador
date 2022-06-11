@@ -88,7 +88,8 @@ else:
             else:
                 print("Error opcion de Menu NO VALIDA")
                 #break
+if __name__ == "__main__": # verificamos que todo lo que se ejecute se ejecute dentro del mismo modulo
     #saludamos al finalizar
-    print("Gracias por Usar Nuestro SOFTWARE...")   
-    
+    print("Gracias por Usar Nuestro SOFTWARE...")
+ 
     
