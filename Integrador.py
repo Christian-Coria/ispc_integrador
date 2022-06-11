@@ -37,6 +37,12 @@ class Facturando5Meses:
 
         #AQUI LA FUNCION PARA DEVOLVER EL VALOR MAXIMO
         pass
+    
+    # Definimos la funcion promedio que devuelve el promedio de Facturacion de los periodos
+    def promediando(self,lista):
+
+        #AQUI LA FUNCION PARA DEVOLVER EL PROMEDIO
+        pass
 
 # iniciamos el bloque try para manejar errores de ingreso por parte del usuario
 try:  
