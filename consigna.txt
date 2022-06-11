@@ -1,11 +1,11 @@
 
                     Actividad (Integradora adaptada al mundo real): 
 Cliente:   Empresa de MANOFACTURA (ejemplo)
-Problematica a Solucionar: Necesita un software donde introduzca cuatrimestralmente la 
-                           facturacion mensual (el total de cada mes) y pueda calcular automaticamente
+Problematica a Solucionar: Necesita un software donde introduzca la 
+                           facturacion correspondiente a 5 periodos mensuales (el total de cada mes) y pueda calcular automaticamente
                            El total facturado (la suma de todos los meses)
-                           La menor facturacion de los 4 meses
-                           La mayor facturacion de los 4 meses
+                           La menor facturacion de los 5 meses
+                           La mayor facturacion de los 5 meses
 Plazo maximo para Presentar al cliente la solucion del Software: Fecha de Entrega: 5/7
 
 -------------------------------------------------------------------------------------------------------
