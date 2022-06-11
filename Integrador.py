@@ -64,9 +64,9 @@ else:
     #inicializamos el menu
     print("MENU DE OPCIONES".center(50,"*"))
     print("""
-    OPCION 1 => TOTAL de Venta CUATRIMESTRAL
-    OPCION 2 => MENOR venta mensual CUATRIMESTRAL
-    OPCION 3 => MAYOR venta mensual CUATRIMESTRAL
+    OPCION 1 => TOTAL de Venta de 5 Periodos
+    OPCION 2 => MENOR venta mensual de 5 Periodos
+    OPCION 3 => MAYOR venta mensual de 5 Periodos
     OPCION 4 => SALIR
     """)
     #manejamos tanto errores (try-except), como un menu ciclico (while)
