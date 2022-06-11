@@ -73,7 +73,8 @@ else:
     OPCION 1 => TOTAL de Venta de 5 Periodos
     OPCION 2 => MENOR venta mensual de 5 Periodos
     OPCION 3 => MAYOR venta mensual de 5 Periodos
-    OPCION 4 => SALIR
+    OPCION 4 => PROMEDIO de venta de 5 Periodos
+    OPCION 5 => SALIR
     """)
     #manejamos tanto errores (try-except), como un menu ciclico (while)
     while True:
@@ -88,7 +89,9 @@ else:
                 print(calculo1.calculando_minimo(lista))
             elif opcion == 3:
                 print(calculo1.calculando_maximo(lista))
-            elif opcion == 4:
+            elif opcion == 4: 
+                print(calculo1.promediando(lista))
+            elif opcion == 5:
                 print("Saliendo-------")
                 break
             else:
