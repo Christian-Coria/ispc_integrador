@@ -19,7 +19,7 @@ class Facturando5Meses:
         self._lista = lista
 
     def __str__(self): # el metodo __str__ devuelve la cadenacon los atributos que queremos mostrar si es llamado
-        return f"Los Importes Vendidos en Cada Mes Ingresados a la Lista Cuatrimestral son: {self._lista}"
+        return f"Los Importes Vendidos en Cada Mes Ingresados a la Lista son: {self._lista}"
     # Definimos la funcion para sumar todos los valores que incluye la lista
     def sumando_lista(self,lista):
 
