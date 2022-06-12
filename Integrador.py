@@ -1,4 +1,4 @@
-
+from datetime import datetime
 
 #imprimimos un titulo, Lo centramos he imprimimos un espacio antes de la primer opcion
 print("Software de Calculo de Facturacion en 5 Meses".center(60,"-"))
@@ -98,7 +98,8 @@ else:
                 print("Error opcion de Menu NO VALIDA")
                 #break
 if __name__ == "__main__": # verificamos que todo lo que se ejecute se ejecute dentro del mismo modulo
-    #saludamos al finalizar
+    #saludamos al finalizar he informamos el horario y dia de la consulta
+    print("Consulta Realizada el",datetime.now())
     print("Gracias por Usar Nuestro SOFTWARE...")
  
     
