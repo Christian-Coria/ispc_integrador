@@ -53,13 +53,9 @@ try:
     while len(lista) <= 4:
         #pedimos al usuario el ingreso de los datos correspondientes
         valor = int(input("INGRESE el TOTAL de VENTAS de CADA MES, Redondeando a Numeros Enteros: "))
+        #agregamos por medio de append a la lista lo ingresado
+        lista.append(valor)
         
-         
-        # AQUI VA DEFINIDA LA FUNCION QUE PERMITE INTRODUCIR LOS DATOS A LA LISTA EN CADA VUELTA DEL CICLO
-        pass  
-
-
-
 # atrapamos el error de existir he indicamos el mismo
 except Exception as e:
     print("Error: Debe Ingresar SOLO NUMEROS ENTEROS!")
