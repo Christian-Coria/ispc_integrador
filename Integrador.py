@@ -21,8 +21,10 @@ class Facturando5Meses:
     def __str__(self): # el metodo __str__ devuelve la cadenacon los atributos que queremos mostrar si es llamado
         return f"Los Importes Vendidos en Cada Mes Ingresados a la Lista son: {self._lista}"
     # Definimos la funcion para sumar todos los valores que incluye la lista
-    def sumando_lista(self,lista):
-
+    def sumando_lista(self,lista):        
+        Suma_de_lista = sum(lista) #creando funcion suma_de_lista sum()
+        return Suma_de_lista
+          
         #AQUI LA FUNCION PARA DEVOLVER LA SUMA DE TODOS LOS VALORES DE LA LISTA
         pass 
 
@@ -82,7 +84,7 @@ else:
             print("Error: Debe ingresar solo numeros enteros y las opciones del Menu!")
         else:
             if opcion == 1:
-                 print(calculo1.sumando_lista(lista))
+                print("La suma total de ventas de los 5 periodos es: ",calculo1.sumando_lista(lista),"DOLARES")
             elif opcion == 2:
                 print(calculo1.calculando_minimo(lista))
             elif opcion == 3:
