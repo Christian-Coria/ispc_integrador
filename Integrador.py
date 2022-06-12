@@ -95,7 +95,7 @@ else:
                 #break
 if __name__ == "__main__": # verificamos que todo lo que se ejecute se ejecute dentro del mismo modulo
     #saludamos al finalizar he informamos el horario y dia de la consulta
-    print("Consulta Realizada el",datetime.now())
+    print("Consulta Realizada el ",datetime.now())
     print("Gracias por Usar Nuestro SOFTWARE...")
  
     
