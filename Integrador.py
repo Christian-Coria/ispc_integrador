@@ -34,10 +34,10 @@ class Facturando5Meses:
 
     # Definimos la funcion para identificar el mayor valor incluido en la lista
     def calculando_maximo(self,lista):
-        max = lista[0]
+        max = lista[0] #asigno a max el valor del primer numero de la lista
         for i in range (1, len(lista)):
-            if lista[i] > max:
-                max = lista[i] 
+            if lista[i] > max: #preguntamos si el valor de la lista del momento es mayor al que tiene max
+                max = lista[i] # se lo asignamos 
         print(max)
     
     # Definimos la funcion promedio que devuelve el promedio de Facturacion de los periodos
@@ -101,6 +101,8 @@ if __name__ == "__main__": # verificamos que todo lo que se ejecute se ejecute d
     print("Gracias por Usar Nuestro SOFTWARE...")
  
     
+
+
 
         
     
