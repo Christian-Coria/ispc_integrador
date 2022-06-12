@@ -32,11 +32,13 @@ class Facturando5Meses:
         #AQUI LA FUNCION PARA DEVOLVER EL VALOR MINIMO
         pass
 
-    # Definimos la funcion para identificar el mayur valor incluido en la lista
+    # Definimos la funcion para identificar el mayor valor incluido en la lista
     def calculando_maximo(self,lista):
-
-        #AQUI LA FUNCION PARA DEVOLVER EL VALOR MAXIMO
-        pass
+        max = lista[0]
+        for i in range (1, len(lista)):
+            if lista[i] > max:
+                max = lista[i] 
+        print(max)
     
     # Definimos la funcion promedio que devuelve el promedio de Facturacion de los periodos
     def promediando(self,lista):
@@ -98,4 +100,7 @@ if __name__ == "__main__": # verificamos que todo lo que se ejecute se ejecute d
     print("Consulta Realizada el ",datetime.now())
     print("Gracias por Usar Nuestro SOFTWARE...")
  
+    
+
+        
     
