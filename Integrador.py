@@ -38,7 +38,7 @@ class Facturando5Meses:
         for i in range (1, len(lista)):
             if lista[i] > max: #preguntamos si el valor de la lista del momento es mayor al que tiene max
                 max = lista[i] # se lo asignamos 
-        print(max)
+        return max #por ultimo mandamos el numero final mayor que quedo en la variable al programa general
     
     # Definimos la funcion promedio que devuelve el promedio de Facturacion de los periodos
     def promediando(self,lista):
@@ -86,7 +86,7 @@ else:
             elif opcion == 2:
                 print(calculo1.calculando_minimo(lista))
             elif opcion == 3:
-                print(calculo1.calculando_maximo(lista))
+                print("La mayor venta de los 5 periodos es: ", calculo1.calculando_maximo(lista))
             elif opcion == 4: 
                 print(calculo1.promediando(lista))
             elif opcion == 5:
@@ -102,7 +102,3 @@ if __name__ == "__main__": # verificamos que todo lo que se ejecute se ejecute d
  
     
 
-
-
-        
-    
