@@ -41,6 +41,7 @@ class Facturando5Meses:
     
     # Definimos la funcion promedio que devuelve el promedio de Facturacion de los periodos
     def promediando(self,lista):
+        return sum(lista) / len (lista)
 
         #AQUI LA FUNCION PARA DEVOLVER EL PROMEDIO
         pass
@@ -87,7 +88,7 @@ else:
             elif opcion == 3:
                 print("La mayor venta de los 5 periodos es: ", calculo1.calculando_maximo(lista),"DOLARES")
             elif opcion == 4: 
-                print(calculo1.promediando(lista))
+                print("El promedio de ventas de los 5 periodos es: " calculo1.promediando(lista))
             elif opcion == 5:
                 print("Saliendo-------")
                 break
