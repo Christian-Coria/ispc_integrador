@@ -24,10 +24,7 @@ class Facturando5Meses:
     def sumando_lista(self,lista):        
         Suma_de_lista = sum(lista) #creando funcion suma_de_lista sum()
         return Suma_de_lista
-          
-        #AQUI LA FUNCION PARA DEVOLVER LA SUMA DE TODOS LOS VALORES DE LA LISTA
-        pass 
-
+       
     # Definimos la funcion para identificar el menor valor incluido en la lista
     def calculando_minimo(self,lista):
 
