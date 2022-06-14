@@ -20,6 +20,7 @@ class Facturando5Meses:
 
     def __str__(self): # el metodo __str__ devuelve la cadenacon los atributos que queremos mostrar si es llamado
         return f"Los Importes Vendidos en Cada Mes Ingresados a la Lista son: {self._lista}"
+    
     # Definimos la funcion para sumar todos los valores que incluye la lista
     def sumando_lista(self,lista):        
         Suma_de_lista = sum(lista) #creando funcion suma_de_lista sum()
@@ -42,9 +43,6 @@ class Facturando5Meses:
     # Definimos la funcion promedio que devuelve el promedio de Facturacion de los periodos
     def promediando(self,lista):
         return sum(lista) / len (lista)
-
-        #AQUI LA FUNCION PARA DEVOLVER EL PROMEDIO
-        pass
 
 # iniciamos el bloque try para manejar errores de ingreso por parte del usuario
 try:  
@@ -82,13 +80,13 @@ else:
             print("Error: Debe ingresar solo numeros enteros y las opciones del Menu!")
         else:
             if opcion == 1:
-                print("La suma total de ventas de los 5 periodos es: ",calculo1.sumando_lista(lista),"DOLARES")
+                print("La Suma total de ventas de los 5 periodos es: ",calculo1.sumando_lista(lista),"DOLARES")
             elif opcion == 2:
                 print(calculo1.calculando_minimo(lista))
             elif opcion == 3:
-                print("La mayor venta de los 5 periodos es: ", calculo1.calculando_maximo(lista),"DOLARES")
+                print("La Mayor venta de los 5 periodos es: ", calculo1.calculando_maximo(lista),"DOLARES")
             elif opcion == 4: 
-                print("El promedio de ventas de los 5 periodos es: " calculo1.promediando(lista))
+                print("El Promedio de ventas de los 5 periodos es: " calculo1.promediando(lista))
             elif opcion == 5:
                 print("Saliendo-------")
                 break
