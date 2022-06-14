@@ -88,14 +88,14 @@ else:
             elif opcion == 4: 
                 print("El Promedio de ventas de los 5 periodos es: ", calculo1.promediando(lista),"DOLARES")
             elif opcion == 5:
-                print("Saliendo-------")
+                print("Consulta Realizada el ",datetime.now())
+                print("Saliendo-------\n")
                 break
             else:
                 print("Error opcion de Menu NO VALIDA")
                 #break
 if __name__ == "__main__": # verificamos que todo lo que se ejecute se ejecute dentro del mismo modulo
     #saludamos al finalizar he informamos el horario y dia de la consulta
-    print("Consulta Realizada el ",datetime.now())
     print("Gracias por Usar Nuestro SOFTWARE...")
  
     
