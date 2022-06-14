@@ -29,8 +29,14 @@ class Facturando5Meses:
     # Definimos la funcion para identificar el menor valor incluido en la lista
     def calculando_minimo(self,lista):
 
-        #AQUI LA FUNCION PARA DEVOLVER EL VALOR MINIMO
-        pass
+    # Definimos la funcion para identificar el menor valor incluido en la lista
+    def calculando_minimo(self,lista):
+        min = lista[0] #asigno a min el valor del primer numero de la lista
+        for i in range (1, len(lista)):
+            if lista[i] < min: #preguntamos si el valor de la lista del momento es menor al que tiene min
+                min = lista[i] #se lo asignamos
+            return min #por ultimo mandamos el numero final menor que quedo en la variable al programa general
+
 
     # Definimos la funcion para identificar el mayor valor incluido en la lista
     def calculando_maximo(self,lista):
@@ -82,7 +88,7 @@ else:
             if opcion == 1:
                 print("La Suma total de ventas de los 5 periodos es: ",calculo1.sumando_lista(lista),"DOLARES")
             elif opcion == 2:
-                print(calculo1.calculando_minimo(lista))
+                print("La venta menor de los 5 periodos es: ",calculo1.calculando_minimo(lista),"DOLARES")
             elif opcion == 3:
                 print("La Mayor venta de los 5 periodos es: ", calculo1.calculando_maximo(lista),"DOLARES")
             elif opcion == 4: 
