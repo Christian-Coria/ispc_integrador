@@ -25,9 +25,6 @@ class Facturando5Meses:
     def sumando_lista(self,lista):        
         Suma_de_lista = sum(lista) #creando funcion suma_de_lista sum()
         return Suma_de_lista
-       
-    # Definimos la funcion para identificar el menor valor incluido en la lista
-    def calculando_minimo(self,lista):
 
     # Definimos la funcion para identificar el menor valor incluido en la lista
     def calculando_minimo(self,lista):
@@ -37,14 +34,13 @@ class Facturando5Meses:
                 min = lista[i] #se lo asignamos
             return min #por ultimo mandamos el numero final menor que quedo en la variable al programa general
 
-
     # Definimos la funcion para identificar el mayor valor incluido en la lista
     def calculando_maximo(self,lista):
         max = lista[0] #asigno a max el valor del primer numero de la lista
         for i in range (1, len(lista)):
             if lista[i] > max: #preguntamos si el valor de la lista del momento es mayor al que tiene max
                 max = lista[i] # se lo asignamos 
-        return max #por ultimo mandamos el numero final mayor que quedo en la variable al programa general
+            return max #por ultimo mandamos el numero final mayor que quedo en la variable al programa general
     
     # Definimos la funcion promedio que devuelve el promedio de Facturacion de los periodos
     def promediando(self,lista):
