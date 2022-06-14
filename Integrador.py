@@ -60,7 +60,7 @@ try:
         
 # atrapamos el error de existir he indicamos el mismo
 except Exception as e:
-    print("Error: Debe Ingresar SOLO NUMEROS ENTEROS!")
+    print("Error: Debe Ingresar SOLO NUMEROS ENTEROS!, Inicie nuevamente Para Volver a Ingresar (SOLO NUMEROS ENTEROS!)")
 # caso contrario  
 else:
     #creamos un objeto 
