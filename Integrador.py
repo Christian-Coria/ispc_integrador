@@ -86,7 +86,7 @@ else:
             elif opcion == 3:
                 print("La Mayor venta de los 5 periodos es: ", calculo1.calculando_maximo(lista),"DOLARES")
             elif opcion == 4: 
-                print("El Promedio de ventas de los 5 periodos es: " calculo1.promediando(lista))
+                print("El Promedio de ventas de los 5 periodos es: ", calculo1.promediando(lista))
             elif opcion == 5:
                 print("Saliendo-------")
                 break
